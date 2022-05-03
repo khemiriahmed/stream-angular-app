@@ -1,0 +1,30 @@
+<div class="container-fluid ">
+   
+  <div class="content-section implementation carousel-episodes">
+      <div class="block-images ">
+          <p-carousel [value]="episode" styleClass="custom-carousel" [numVisible]="4" [numScroll]="1"
+          [circular]="true" [autoplayInterval]="0" [responsiveOptions]="responsiveOptions">
+              <ng-template let-episode pTemplate="item">
+                <div class="item">
+                  <div class="bloc-img">
+                    <img src="{{episode.url_picture}}" class="card-img-top" alt="...">
+                    <div class="episode-play">
+                      <a href="">
+                        <i class="fa-solid fa-circle-play"></i></a>
+                  </div>
+                  <span class="episode-duration">{{episode.duration}}</span>
+                  </div>
+                 
+                  <div class="block-description">
+                    <h5 class="title"><span class="episode-number">{{episode.episode_number}}</span> {{episode.titre}} </h5>
+                    <p class="movie-time "><span class="text-white">
+                     {{episode.paragraphe}} </span></p>
+                    
+                  </div>
+                </div>
+              </ng-template>
+          </p-carousel>
+      </div>
+    </div>
+  
+  </div>

@@ -1,0 +1,277 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "url_image": "https://i.postimg.cc/J0kNPTMC/sanddust2.jpg",
+      "logo": "https://i.postimg.cc/FK40Hs93/logo.png",
+      "titre": "Sand Dust",
+      "ratting":"4",
+      "note":"4.6(Imdb)",
+      "badge":"GP",
+      "duration":"2hr:22mins",
+      "paragraph":"Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
+      "ratisng":"4",
+      "starring":"Karen Gilchrist James Earl Jones",
+      "genre":"Actions",
+      "tags":"Action,Adventure,Horror",
+      "url_videos":"frf"
+    },
+
+    {
+      "id": 2,
+      "url_image": "https://i.postimg.cc/2jb7k5v9/Shadow.jpg",
+      "logo": "https://i.postimg.cc/FK40Hs93/logo.png",
+      "titre": "SHADOW",
+      "ratting":"4",
+      "note":"4.9(Imdb)",
+      "badge":"NC-17",
+      "duration":"1hr:58mins",
+      "paragraph":"A shadow is a dark (real image) area where light from a light source is blocked by an opaque object. It occupies all of the three-dimensional volume behind an object with light in front of it. A shadow is a dark (real image) area where light from a light source is blocked by an opaque object.",
+      "ratisng":"4",
+      "starring":" Shahadi Wright Joseph, Amy Sedaris",
+      "genre":"Action,Adventure,Animationns",
+      "tags":"Horror,thriller,",
+      "url_videos":"y"
+    },
+    {
+      "id": 3,
+      "url_image": "https://i.postimg.cc/521BSqrD/vking.jpg",
+      "logo": "https://i.postimg.cc/FK40Hs93/logo.png",
+      "titre": "THE GREAT EMPEROR",
+      "ratting":"4",
+      "note":"4.6(Imdb)",
+      "badge":"BP",
+      "duration":"2hr : 42mins",
+      "paragraph":"The most brutal emperor in the history of world.He was the founder of the most contiguous empire of the world i.e. the Mongol empire.He made an army by himself by uniting some nomadic tribes and trained them.",
+      "ratisng":"4",
+      "starring":" Shahadi Wright Joseph, Amy Sedaris",
+      "genre":"Action,Adventure,Animationns",
+      "tags":"Horror,thriller,",
+      "url_videos":"y"
+    }
+  ],
+
+  "movie": [
+    {
+      "id": 1,
+      "titre": "My Office Boss",
+      "url_picture": "https://i.postimg.cc/bv9kDcJM/boss.jpg",
+      "movie_time":"2hr : 38mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 2,
+      "titre": "The Illusion",
+      "url_picture": "https://i.postimg.cc/cH5KwsND/movies01.jpg",
+      "movie_time":"1hr : 22mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 3,
+      "titre": "King of Jungle",
+      "url_picture": "https://i.postimg.cc/WzFd7QNs/movie-xyz.jpg",
+      "movie_time":"1hr : 35mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 4,
+      "titre": "Jumbo Queen",
+      "url_picture": "https://i.postimg.cc/d3y0Cr61/movies05.jpg",
+      "movie_time":"2hr : 12mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 5,
+      "titre": "Sand Dust",
+      "url_picture": "https://i.postimg.cc/J0kNPTMC/sanddust2.jpg",
+      "movie-time":"2hr : 22mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 6,
+      "titre": "Another Danger",
+      "url_picture": "https://i.postimg.cc/s2d4G4JB/another-danger.jpg",
+      "movie_time":"2hr : 52mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 7,
+      "titre": "The Great Emperor",
+      "url_picture": "https://i.postimg.cc/vB895qxm/final-fantasy.jpg",
+      "movie-time":"2hr : 42mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 8,
+      "titre": "Shadow",
+      "url_picture": "https://i.postimg.cc/2jb7k5v9/Shadow.jpg",
+      "movie_time":"1hr : 58mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 9,
+      "titre": "Revenge Warrior",
+      "url_picture": "https://i.postimg.cc/521BSqrD/vking.jpg",
+      "movie_time":"1hr : 30mins",
+      "url_btn":"#"
+    }
+
+  ],
+
+
+
+  "upCommingMovie": [
+    {
+      "id": 1,
+      "titre": "One Man Army",
+      "url_picture": "https://i.postimg.cc/h45x70DS/ep-6.jpg",
+      "movie_time":"1hr : 28mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 2,
+      "titre": "The Illusion",
+      "url_picture": "https://i.postimg.cc/J0kNPTMC/sanddust2.jpg",
+      "movie_time":"1hr : 22mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 3,
+      "titre": "King of Jungle",
+      "url_picture": "https://i.postimg.cc/WzFd7QNs/movie-xyz.jpg",
+      "movie_time":"1hr : 35mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 4,
+      "titre": "Jumbo Queen",
+     
+      "url_picture": "https://i.postimg.cc/bv9kDcJM/boss.jpg",
+      "movie_time":"2hr : 12mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 5,
+      "titre": "Sand Dust",
+      "url_picture": "https://i.postimg.cc/cH5KwsND/movies01.jpg",
+      "movie-time":"2hr : 22mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 6,
+      "titre": "Viking",
+      "url_picture": "https://i.postimg.cc/521BSqrD/vking.jpg",
+      "movie_time":"2hr : 52mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 7,
+      "titre": "The Great Emperor",
+      "url_picture": "https://i.postimg.cc/vB895qxm/final-fantasy.jpg",
+      "movie-time":"2hr : 42mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 8,
+      "titre": "Shadow",
+      "url_picture": "https://i.postimg.cc/2jb7k5v9/Shadow.jpg",
+      "movie_time":"1hr : 58mins",
+      "url_btn":"#"
+    },
+    {
+      "id": 9,
+      "titre": "Revenge Warrior",
+      "url_picture": "https://i.postimg.cc/s2d4G4JB/another-danger.jpg",
+      "movie_time":"1hr : 30mins",
+      "url_btn":"#"
+    }
+
+  ],
+
+
+
+  "episode": [
+  {
+    "id": 1,
+    "episode":"Episode 1",
+    "season":"season",
+    "date":"date",
+    "titre": "Zombie-island 1",
+    "url_picture": "https://i.postimg.cc/ZR0nT1y6/part-1.jpg",
+    "duration":"40min",
+    "episode_number":"S01E01",
+    "paragraphe":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+
+  {
+    "id": 2,
+    "episode":"Episode 2",
+    "season":"season",
+    "date":"date",
+    "titre": "Zombie-island 1",
+    "url_picture": "https://i.postimg.cc/nL3MfHMH/part-2.jpg",
+    "duration":"40min",
+    "episode_number":"S01E02",
+    "paragraphe":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 3,
+    "episode":"Episode 2",
+    "season":"season",
+    "date":"date",
+    "titre": "Zombie-island 1",
+    "url_picture": "https://i.postimg.cc/h4fpXsFr/part-3.jpg",
+    "duration":"40min",
+    "episode_number":"S01E03",
+    "paragraphe":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 4,
+    "episode":"Episode 2",
+    "season":"season",
+    "date":"date",
+    "titre": "Zombie-island 1",
+    "url_picture": "https://i.postimg.cc/sgRc0RM6/part-4.jpg",
+    "duration":"40min",
+    "episode_number":"S01E04",
+    "paragraphe":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }
+
+  ],
+  "page-movies": [
+    {
+      "id": 1,
+      "url_image": "https://i.postimg.cc/7hnt6Wcg/movie-abc.jpg",
+      "titre": "The Dinosaur",
+      "ratting":"4",
+      "note":"4.4(Imdb)",
+      "badge":"GP",
+      "duration":"1hr:30mins",
+      "paragraph":"Dinosaurs are a diverse group of reptiles of the clade Dinosauria. They first appeared during the Triassic period, between 243 and 233.23 million years ago, although the exact origin and timing of the evolution of dinosaurs is the subject of active research."
+   
+    },
+
+    {
+      "id": 2,
+      "url_image": "https://i.postimg.cc/vB895qxm/final-fantasy.jpg",
+      "titre": "The Great Emperor",
+      "ratting":"4",
+      "note":"3.5(Imdb)",
+      "badge":"NC-17",
+      "duration":"2hr:42mins",
+      "paragraph":"The most brutal emperor in the history of world.He was the founder of the most contiguous empire of the world i.e. the Mongol empire.He made an army by himself by uniting some nomadic tribes and trained them"
+    
+    },
+    {
+      "id": 3,
+      "url_image": "https://i.postimg.cc/d3y0Cr61/movies05.jpg",
+      "titre": "Jumbo Queen",
+      "ratting":"4",
+      "note":"4.9(Imdb)",
+      "badge":"PG-13",
+      "duration":"2hr : 12mins",
+      "paragraph":"The most brutal emperor in the history of world.He was the founder of the most contiguous empire of the world i.e. the Mongol empire.He made an army by himself by uniting some nomadic tribes and trained them."
+     
+    }
+  ]
+}

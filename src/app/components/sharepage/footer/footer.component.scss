@@ -1,0 +1,91 @@
+$bg-footer:#191919;
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: $bg-footer;
+    padding: 70px 0;
+    font-family: Roboto, sans-serif;
+
+    .footer-standard .widget ul li {
+        display: inline-block;
+        padding-right: 1.875em;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .text-left {}
+
+    a,
+    h6 {
+        color: #fff;
+        padding-bottom: 20px;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+
+        &:hover {
+            color: #e50914;
+            text-decoration: none;
+        }
+    }
+
+    p {
+        font-size: 1.1em;
+        color: #d1d0cf;
+    }
+
+    i {
+        font-size: 25px;
+        margin-right: 1.1em;
+        position: relative;
+        font-size: 1.063em;
+        border-radius: 50%;
+        background: rgba(41, 41, 41, .76);
+        width: 2.5em;
+        height: 2.5em;
+        line-height: 2.5em !important;
+        text-align: center;
+        -webkit-transition: all .4s ease 0s;
+        transition: all .4s ease 0s;
+
+        &:hover {
+            -webkit-box-shadow: 0 0 0.625em #bf000a;
+            box-shadow: 0 0 0.625em #bf000a;
+            text-shadow: 0 0 0.125em #bf000a;
+            color: #bf000a;
+            -webkit-transition: all .4s ease 0s;
+            transition: all .4s ease 0s;
+            border-radius: 50%;
+        }
+    }
+
+    ul {
+        padding: 0 !important;
+    }
+
+}
+
+
+@media(max-width:768px) {
+    footer.bloc-padding {
+        padding: 20px !important;
+        text-align: center;
+    }
+
+    .info-share {
+        justify-content: center;
+    }
+
+    .footer-link-title {
+        text-align: center;
+    }
+
+    .fa-instagram {
+        margin-top: 0 !important;
+    }
+}

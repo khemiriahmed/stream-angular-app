@@ -1,0 +1,78 @@
+<div class="wrapper-box">
+  <div class="bloc-title">
+    <h1>Contact</h1>
+  </div>
+    <div class="container  py-5">
+   <h2 class=" text-center">Say Hello</h2>
+   <p class=" text-center pb-4">Say Hello..!Fill up this form to reach our stunning Streamit team and click on send message.</p>
+      <div class="row pl-5" >
+        <div class="col-md-12">
+          <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+            <div class="contact-text-filed">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="Fullname"
+                placeholder="First Name"
+                formControlName="First_name"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="last_name"
+                placeholder="Last Name"
+                formControlName="Last_name"
+              />
+            </div>
+            </div>
+            <div class="contact-text-filed">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="phone"
+                (keypress)="keyPressNumbers($event)"
+                placeholder="Phone Number"
+                formControlName="Phone"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                name="Email"
+                aria-describedby="emailHelp"
+                placeholder="Your Email"
+                formControlName="Email"
+              />
+            
+            </div>
+            </div>
+            <div class="contact-text-filed">
+            <div class="form-group txtmsg">
+              <textarea
+                class="form-control"
+                formControlName="Comment"
+                name="Comment"
+                placeholder="Your Message"
+              >
+              </textarea>
+            </div>
+          </div>
+            <button
+              type="submit"
+              class="btn send btn-hover"
+              [disabled]="!FormData.valid"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

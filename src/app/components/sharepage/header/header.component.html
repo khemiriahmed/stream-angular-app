@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class="navbar-brand" href="#"><img class="img-fluid logo" src="https://i.postimg.cc/FK40Hs93/logo.png" alt="wp-rig"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto">
+         <li class="nav-item " *ngFor="let data of navData">
+                <a class="nav-link {{data.disabled}}" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" routerLink="{{data.routLink}}" 
+               
+                >{{data.label}}</a>
+            </li>
+        </ul>
+        <div class="sub-main pr-5 d-none d-md-block">
+            <nav class="identifier">
+                <div class="iq-usermenu-dropdown">
+                    <ul class="d-flex align-items-center">
+                        <li class="nav-item nav-icon header-search-right pr-4">
+                            <a href="" class="search-toggle device-search active" id="btn-search">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                        </li>
+                        <li class="nav-item nav-icon header-user-rights">
+                            <a href="" class="iq-user-dropdown search-toggle p-0 d-flex align-items-center active" data-toggle="search-toggle" id="btn-user-list">
+                                <img src="https://i.postimg.cc/ZnfxK2Gp/user.png" class="img-fluid avatar-40 rounded-circle" alt="user">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+
+    </div>
+</nav>

@@ -1,0 +1,57 @@
+.carousel-episodes {
+    .item.ng-star-inserted {
+        background-color: #191919;
+        margin-right: 10px;
+
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        &:hover .episode-play {
+            opacity: 1;
+        }
+    }
+
+    .block-description {
+        padding: 10px 20px;
+    }
+
+    .episode-number {
+        color: red;
+        font-size: 13px;
+        padding-right: 10px;
+    }
+
+    .episode-play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+    .episode-duration {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 8px;
+        background-color: red;
+        font-size: 13px;
+        padding: 1px 3px;
+    }
+
+    i {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .bloc-img {
+        position: relative;
+
+    }
+}

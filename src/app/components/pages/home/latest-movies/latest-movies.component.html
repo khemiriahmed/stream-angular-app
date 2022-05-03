@@ -1,0 +1,32 @@
+<div class="container-fluid  bloc-padding">
+  <h2>Latest Movies</h2>
+<div class="content-section implementation carousel-stream">
+    <div class="block-images ">
+        <p-carousel [value]="movie" styleClass="custom-carousel" [numVisible]="4" [numScroll]="1"
+        [circular]="true" [autoplayInterval]="0" [responsiveOptions]="responsiveOptions">
+            <ng-template let-movie pTemplate="item" >
+              <div class="item">
+                <img src="{{movie.url_picture}}" class="card-img-top" alt="...">
+                <div class="block-description">
+                  <h5 class="title">{{movie.titre}}</h5>
+                  <p class="movie-time "><span class="text-white">{{movie.movie_time}}</span></p>
+                  <div class="d-flex align-items-center">
+                    <a href="" class="btn btn-hover iq-button" tabindex="0"><i class="fa fa-play mr-2" aria-hidden="true"></i>
+                      Play Now</a>
+                  </div>
+              
+                </div>
+                <div class="block-social-info">
+                  <ul>
+                   <a href=""><li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span></li></a> 
+                   <a href=""> <li><span><i class="fa fa-heart" aria-hidden="true"></i></span></li></a>
+                   <a href=""> <li><span><i class="fa fa-plus" aria-hidden="true"></i></span></li></a>
+                  </ul>
+                </div>
+              </div>
+            </ng-template>
+        </p-carousel>
+    </div>
+  </div>
+
+</div>

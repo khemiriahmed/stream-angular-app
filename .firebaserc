@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "steam-angular-app"
+  },
+  "targets": {
+    "steam-angular-app": {
+      "hosting": {
+        "stream": [
+          "steam-angular-app"
+        ]
+      }
+    }
+  }
+}

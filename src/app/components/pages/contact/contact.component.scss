@@ -1,0 +1,82 @@
+.bloc-title {
+    background-image: url(https://wordpress.iqonic.design/product/wp/streamit/wp-content/themes/streamit-theme/assets/images/redux/bg.jpg);
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
+    background-size: cover !important;
+    background-color: #191919 !important;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+form {
+
+    input,
+    textarea {
+        width: 100%;
+        float: left;
+        height: 4.5em;
+        font-size: .875em;
+        line-height: 1.5em;
+        padding: 0 1.5em;
+        background: #111 !important;
+        border: 0.0625em solid #111 !important;
+        border-radius: 0;
+        color: #d1d0cf;
+        color: var(--iq-body-text);
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+
+        &::placeholder {
+            color: #d1d0cf;
+        }
+
+        &:focus {
+
+            box-shadow: 0 0 0 0.1rem rgba(255, 0, 0, 0.852) !important;
+
+
+
+        }
+    }
+
+    textarea {
+        width: 85%;
+        padding: 0.938em;
+        height: 9.375em;
+        border-radius: 0;
+
+    }
+
+    .form-group {
+        width: 40%;
+        margin-right: 30px;
+    }
+
+    .txtmsg {
+        width: 100%;
+    }
+
+    .send {
+        width: 150px;
+
+        &:focus {
+            outline: none;
+            border: none;
+        }
+    }
+
+}
+
+.contact-text-filed {
+    display: flex;
+
+}
